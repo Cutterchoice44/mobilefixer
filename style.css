@@ -486,15 +486,6 @@ section h2 {
   .chat .popout-btn { display: none !important; }
 }
 
-/* SLIDESHOW: enlarge by 20% and teal border */
-#slideshow {
-  transform: scale(1.2);
-  transform-origin: center center;
-  border: 2px solid var(--brand-teal);
-  box-sizing: border-box;
-  margin: 0 auto;
-}
-
 /* CENTER Pop-Out Chat button */
 .chat-actions {
   text-align: center;
