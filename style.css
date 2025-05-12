@@ -436,11 +436,12 @@ section h2 {
   .mixcloud       { order: 4; display: none !important; }
 
   /* Chat & Player sizing */
-  .chat iframe    { height: 650px !important; }
-  .live-player iframe,
-  .live-player audio { height: 110px !important; }
+.live-player iframe,
+  .live-player audio {
+    height: 320px !important;    /* bumped from 110px so cover art is visible */
+    max-height: 60vh    !important;
+  }
 }
-
 /* MOBILE FIXES */
 .chat-btn-mobile {
   display: none;
